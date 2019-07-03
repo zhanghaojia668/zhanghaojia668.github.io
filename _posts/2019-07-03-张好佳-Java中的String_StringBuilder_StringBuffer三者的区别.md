@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Java中的String，StringBuilder，StringBuffer三者的区别
+title:      Java中的String_StringBuilder_StringBuffer三者的区别
 subtitle:   String
 date:       2019-07-03
 author:     ZHJ
@@ -8,16 +8,11 @@ header-img: img/post-bg-cook.jpg
 catalog: true
 tags:
     - StringBuilder
-	- StringBuffer
 ---
 
-# [Java中的String，StringBuilder，StringBuffer三者的区别](https://www.cnblogs.com/su-feng/p/6659064.html)
 
 
-
-　　最近在学习Java的时候，遇到了这样一个问题，就是String,StringBuilder以及StringBuffer这三个类之间有什么区别呢，自己从网上搜索了一些资料，有所了解了之后在这里整理一下，便于大家观看，也便于加深自己学习过程中对这些知识点的记忆，如果哪里有误，恳请指正。
-
-　　这三个类之间的区别主要是在两个方面，即运行速度和线程安全这两方面。
+​	这三个类之间的区别主要是在两个方面，即运行速度和线程安全这两方面。
 
 - StringBuilder又称为可变字符序列，它是一个类似于 String 的字符串缓冲区，通过某些方法调用可以改变该序列的长度和内容。
 - StringBuilder是个字符串的缓冲区，即它是一个容器，容器中可以装很多字符串。并且能够对其中的字符串进行各种操作。它的内部拥有一个数组用来存放字符串内容，进行字符串拼接时，直接在数组中加入新内容。
