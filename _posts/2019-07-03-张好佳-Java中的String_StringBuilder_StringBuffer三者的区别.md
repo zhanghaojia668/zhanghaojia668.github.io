@@ -4,7 +4,7 @@ title:      Java中的String_StringBuilder_StringBuffer三者的区别
 subtitle:   字符串的三种常见用法
 date:       2019-07-03
 author:     ZHJ
-header-img: img/post-bg-cook.jpg
+header-img: img/post-bg-rwd.jpg
 catalog: true
 tags:
     - StringBuilder
